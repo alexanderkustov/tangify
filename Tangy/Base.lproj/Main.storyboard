@@ -128,7 +128,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vh1-Bw-8gn" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" alpha="0.49999999999999961" contentMode="scaleToFill" id="cb2-CJ-oqw">
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="cb2-CJ-oqw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -158,11 +158,11 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Y0K-wa-rIf">
-                                <rect key="frame" x="12" y="64" width="296" height="143"/>
+                                <rect key="frame" x="12" y="74" width="296" height="143"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h8B-gf-Qex">
-                                <rect key="frame" x="93" y="123" width="134" height="134"/>
+                                <rect key="frame" x="93" y="142" width="134" height="134"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
