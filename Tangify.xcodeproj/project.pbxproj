@@ -14,6 +14,7 @@
 		1572B386185BC8CA00E28E4B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B385185BC8CA00E28E4B /* icon.png */; };
 		1572B388185BC9A500E28E4B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B387185BC9A500E28E4B /* logo.png */; };
 		1572B38A185BCBD700E28E4B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B389185BCBD700E28E4B /* splash.png */; };
+		1572B38D185BD26E00E28E4B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1572B38C185BD26E00E28E4B /* SettingsViewController.m */; };
 		AE5B8C9818574F2400F45D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9718574F2400F45D9B /* Foundation.framework */; };
 		AE5B8C9A18574F2400F45D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9918574F2400F45D9B /* CoreGraphics.framework */; };
 		AE5B8C9C18574F2400F45D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9B18574F2400F45D9B /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 		1572B385185BC8CA00E28E4B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1572B387185BC9A500E28E4B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		1572B389185BCBD700E28E4B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		1572B38B185BD26E00E28E4B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1572B38C185BD26E00E28E4B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		4317A20061084190869BC194 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5B8C9418574F2400F45D9B /* Tangify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5B8C9718574F2400F45D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				AE5B8CA618574F2400F45D9B /* AppDelegate.h */,
 				AE5B8CA718574F2400F45D9B /* AppDelegate.m */,
 				AE5B8CA918574F2400F45D9B /* Main.storyboard */,
+				1572B38B185BD26E00E28E4B /* SettingsViewController.h */,
+				1572B38C185BD26E00E28E4B /* SettingsViewController.m */,
 				AE5B8CAC18574F2400F45D9B /* ViewController.h */,
 				AE5B8CAD18574F2400F45D9B /* ViewController.m */,
 				AE5B8CAF18574F2400F45D9B /* Images.xcassets */,
@@ -328,6 +333,7 @@
 				AE5B8CAE18574F2400F45D9B /* ViewController.m in Sources */,
 				AE5B8CA818574F2400F45D9B /* AppDelegate.m in Sources */,
 				AE5B8CA418574F2400F45D9B /* main.m in Sources */,
+				1572B38D185BD26E00E28E4B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
