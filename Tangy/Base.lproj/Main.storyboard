@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U0g-pW-akM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fXf-na-bFd">
@@ -30,7 +30,7 @@
                                 </state>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="logotipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zv7-eh-e9t">
-                                <rect key="frame" x="48" y="90" width="225" height="272"/>
+                                <rect key="frame" x="48" y="73" width="225" height="272"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="login.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zfq-JH-ZeA">
@@ -61,6 +61,7 @@
             <objects>
                 <navigationController definesPresentationContext="YES" id="GLC-SD-yZf" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Catalog" id="YLW-GO-UHa"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pbt-cf-mZs">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -81,7 +82,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VHp-jn-D9s"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iUu-8D-9XB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cgF-VL-ojR">
@@ -89,7 +90,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.49999999999999961" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="wZq-D7-z5O">
-                                <rect key="frame" x="0.0" y="101" width="320" height="370"/>
+                                <rect key="frame" x="0.0" y="101" width="320" height="282"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
@@ -111,11 +112,15 @@
                         <viewControllerLayoutGuide type="bottom" id="hLk-HB-F2Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qkP-om-MmB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zpw-KV-lHt">
                                 <rect key="frame" x="-103" y="-312" width="640" height="1136"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="radar.png" translatesAutoresizingMaskIntoConstraints="NO" id="wgF-gh-MDL">
+                                <rect key="frame" x="20" y="116" width="287" height="287"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -132,6 +137,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vh1-Bw-8gn" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="cb2-CJ-oqw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -154,7 +160,7 @@
                         <viewControllerLayoutGuide type="bottom" id="i6l-8d-lhn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YkP-20-LkV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KCG-oC-dmm">
@@ -203,7 +209,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Vfe-YY-7hh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fi6-fg-GrC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5tb-Bf-4fR">
@@ -211,7 +217,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.49999999999999961" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="zdd-oz-bdl">
-                                <rect key="frame" x="0.0" y="102" width="320" height="370"/>
+                                <rect key="frame" x="0.0" y="102" width="320" height="282"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="71" id="9oy-0c-ZlG">
@@ -282,7 +288,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xrf-6d-onP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="o4h-Xh-mor">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tLu-Q2-ije">
@@ -290,19 +296,19 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fYk-8a-bkl">
-                                <rect key="frame" x="48" y="359" width="230" height="30"/>
+                                <rect key="frame" x="48" y="351" width="230" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1M-DA-sEn">
-                                <rect key="frame" x="48" y="397" width="230" height="30"/>
+                                <rect key="frame" x="48" y="389" width="230" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="login.png" translatesAutoresizingMaskIntoConstraints="NO" id="uf1-3a-Zdd">
-                                <rect key="frame" x="55" y="430" width="217" height="74"/>
+                                <rect key="frame" x="55" y="414" width="217" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkT-0N-VwD">
@@ -316,7 +322,7 @@
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="logotipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="jR2-id-1h8">
-                                <rect key="frame" x="48" y="90" width="225" height="272"/>
+                                <rect key="frame" x="48" y="71" width="225" height="272"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -371,15 +377,15 @@
                         <viewControllerLayoutGuide type="bottom" id="3Eq-x3-q4q"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aid-4m-iUa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xtz-79-l8m">
-                                <rect key="frame" x="-162" y="-243" width="640" height="1136"/>
+                                <rect key="frame" x="-160" y="-221" width="640" height="1136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <tableView clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="qYi-Vg-gPT">
-                                <rect key="frame" x="0.0" y="101" width="320" height="370"/>
+                                <rect key="frame" x="0.0" y="101" width="320" height="282"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
@@ -390,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7nW-cu-L6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3513" y="1562"/>
+            <point key="canvasLocation" x="3513" y="1586"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="p6c-y0-FRZ">
@@ -421,6 +427,7 @@
         <image name="bg.jpg" width="640" height="1136"/>
         <image name="login.png" width="336" height="116"/>
         <image name="logotipo.png" width="368" height="444"/>
+        <image name="radar.png" width="566" height="566"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
