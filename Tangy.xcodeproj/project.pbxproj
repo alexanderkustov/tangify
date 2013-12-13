@@ -26,13 +26,6 @@
 		AE5B8CCD1857534500F45D9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8CCC1857534500F45D9B /* MapKit.framework */; };
 		AE5B8CCF185753E500F45D9B /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8CCE185753E500F45D9B /* app.jpg */; };
 		AEEF64731859DF6B003E0DCA /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64721859DF6B003E0DCA /* bg.jpg */; };
-		AEEF64771859E2A8003E0DCA /* logo_tangy5.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64761859E2A8003E0DCA /* logo_tangy5.png */; };
-		AEEF647F1859E9BB003E0DCA /* logo_tangy5.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64791859E9BB003E0DCA /* logo_tangy5.png */; };
-		AEEF64811859E9BB003E0DCA /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF647B1859E9BB003E0DCA /* profile.png */; };
-		AEEF64821859E9BB003E0DCA /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF647C1859E9BB003E0DCA /* chat.png */; };
-		AEEF64831859E9BB003E0DCA /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF647D1859E9BB003E0DCA /* radar.png */; };
-		AEEF64861859EB3A003E0DCA /* searg.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64841859EB3A003E0DCA /* searg.png */; };
-		AEEF64871859EB3A003E0DCA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64851859EB3A003E0DCA /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,13 +64,6 @@
 		AE5B8CCC1857534500F45D9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AE5B8CCE185753E500F45D9B /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
 		AEEF64721859DF6B003E0DCA /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Desktop/bg.jpg; sourceTree = "<group>"; };
-		AEEF64761859E2A8003E0DCA /* logo_tangy5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_tangy5.png; path = ../../../../Desktop/logo_tangy5.png; sourceTree = "<group>"; };
-		AEEF64791859E9BB003E0DCA /* logo_tangy5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_tangy5.png; path = ../../../../Desktop/logo_tangy5.png; sourceTree = "<group>"; };
-		AEEF647B1859E9BB003E0DCA /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../../Desktop/profile.png; sourceTree = "<group>"; };
-		AEEF647C1859E9BB003E0DCA /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = ../../../../Desktop/chat.png; sourceTree = "<group>"; };
-		AEEF647D1859E9BB003E0DCA /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = radar.png; path = ../../../../Desktop/radar.png; sourceTree = "<group>"; };
-		AEEF64841859EB3A003E0DCA /* searg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = searg.png; path = ../../../../Desktop/searg.png; sourceTree = "<group>"; };
-		AEEF64851859EB3A003E0DCA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../../Desktop/settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,13 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				1572B37B185BA07800E28E4B /* bg.jpg */,
-				AEEF64841859EB3A003E0DCA /* searg.png */,
-				AEEF64851859EB3A003E0DCA /* settings.png */,
-				AEEF64791859E9BB003E0DCA /* logo_tangy5.png */,
-				AEEF647B1859E9BB003E0DCA /* profile.png */,
-				AEEF647C1859E9BB003E0DCA /* chat.png */,
-				AEEF647D1859E9BB003E0DCA /* radar.png */,
-				AEEF64761859E2A8003E0DCA /* logo_tangy5.png */,
 				AEEF64721859DF6B003E0DCA /* bg.jpg */,
 				AE5B8CCE185753E500F45D9B /* app.jpg */,
 				AE5B8C9F18574F2400F45D9B /* Tangy-Info.plist */,
@@ -268,17 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1572B37C185BA07800E28E4B /* bg.jpg in Resources */,
-				AEEF64871859EB3A003E0DCA /* settings.png in Resources */,
 				AEEF64731859DF6B003E0DCA /* bg.jpg in Resources */,
 				AE5B8CB018574F2400F45D9B /* Images.xcassets in Resources */,
-				AEEF64821859E9BB003E0DCA /* chat.png in Resources */,
-				AEEF64811859E9BB003E0DCA /* profile.png in Resources */,
-				AEEF64861859EB3A003E0DCA /* searg.png in Resources */,
-				AEEF647F1859E9BB003E0DCA /* logo_tangy5.png in Resources */,
 				AE5B8CA218574F2400F45D9B /* InfoPlist.strings in Resources */,
 				AE5B8CAB18574F2400F45D9B /* Main.storyboard in Resources */,
-				AEEF64771859E2A8003E0DCA /* logo_tangy5.png in Resources */,
-				AEEF64831859E9BB003E0DCA /* radar.png in Resources */,
 				AE5B8CCF185753E500F45D9B /* app.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
