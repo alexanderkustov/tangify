@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1572B37C185BA07800E28E4B /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1572B37B185BA07800E28E4B /* bg.jpg */; };
+		1572B381185BAAFE00E28E4B /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B37F185BAAFE00E28E4B /* login.png */; };
+		1572B382185BAAFE00E28E4B /* logotipo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B380185BAAFE00E28E4B /* logotipo.png */; };
 		AE4B98CD1859FECA00125CB3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4B98CC1859FECA00125CB3 /* MapViewController.m */; };
 		AE5B8C9818574F2400F45D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9718574F2400F45D9B /* Foundation.framework */; };
 		AE5B8C9A18574F2400F45D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9918574F2400F45D9B /* CoreGraphics.framework */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1572B37B185BA07800E28E4B /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		1572B37F185BAAFE00E28E4B /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		1572B380185BAAFE00E28E4B /* logotipo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotipo.png; sourceTree = "<group>"; };
 		AE4B98CB1859FECA00125CB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		AE4B98CC1859FECA00125CB3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		AE5B8C9418574F2400F45D9B /* Tangy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +145,8 @@
 		AE5B8C9E18574F2400F45D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1572B37F185BAAFE00E28E4B /* login.png */,
+				1572B380185BAAFE00E28E4B /* logotipo.png */,
 				1572B37B185BA07800E28E4B /* bg.jpg */,
 				AEEF64721859DF6B003E0DCA /* bg.jpg */,
 				AE5B8CCE185753E500F45D9B /* app.jpg */,
@@ -217,6 +223,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = inspiring.pt;
 				TargetAttributes = {
+					AE5B8C9318574F2400F45D9B = {
+						DevelopmentTeam = PLCBPBAFE9;
+					};
 					AE5B8CB418574F2400F45D9B = {
 						TestTargetID = AE5B8C9318574F2400F45D9B;
 					};
@@ -250,8 +259,10 @@
 				AEEF64731859DF6B003E0DCA /* bg.jpg in Resources */,
 				AE5B8CB018574F2400F45D9B /* Images.xcassets in Resources */,
 				AE5B8CA218574F2400F45D9B /* InfoPlist.strings in Resources */,
+				1572B382185BAAFE00E28E4B /* logotipo.png in Resources */,
 				AE5B8CAB18574F2400F45D9B /* Main.storyboard in Resources */,
 				AE5B8CCF185753E500F45D9B /* app.jpg in Resources */,
+				1572B381185BAAFE00E28E4B /* login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +411,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tangy/Tangy-Prefix.pch";
 				INFOPLIST_FILE = "Tangy/Tangy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -413,10 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tangy/Tangy-Prefix.pch";
 				INFOPLIST_FILE = "Tangy/Tangy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
