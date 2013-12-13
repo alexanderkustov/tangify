@@ -28,7 +28,6 @@
 		AE5B8CC318574F2400F45D9B /* TangyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B8CC218574F2400F45D9B /* TangyTests.m */; };
 		AE5B8CCD1857534500F45D9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8CCC1857534500F45D9B /* MapKit.framework */; };
 		AE5B8CCF185753E500F45D9B /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8CCE185753E500F45D9B /* app.jpg */; };
-		AEEF64731859DF6B003E0DCA /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEEF64721859DF6B003E0DCA /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		AE5B8CC218574F2400F45D9B /* TangyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangyTests.m; sourceTree = "<group>"; };
 		AE5B8CCC1857534500F45D9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AE5B8CCE185753E500F45D9B /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
-		AEEF64721859DF6B003E0DCA /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Desktop/bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +149,6 @@
 				1572B37F185BAAFE00E28E4B /* login.png */,
 				1572B380185BAAFE00E28E4B /* logotipo.png */,
 				1572B37B185BA07800E28E4B /* bg.jpg */,
-				AEEF64721859DF6B003E0DCA /* bg.jpg */,
 				AE5B8CCE185753E500F45D9B /* app.jpg */,
 				AE5B8C9F18574F2400F45D9B /* Tangy-Info.plist */,
 				AE5B8CA018574F2400F45D9B /* InfoPlist.strings */,
@@ -260,7 +257,6 @@
 			files = (
 				1572B37C185BA07800E28E4B /* bg.jpg in Resources */,
 				1572B384185BB32F00E28E4B /* radar.png in Resources */,
-				AEEF64731859DF6B003E0DCA /* bg.jpg in Resources */,
 				AE5B8CB018574F2400F45D9B /* Images.xcassets in Resources */,
 				AE5B8CA218574F2400F45D9B /* InfoPlist.strings in Resources */,
 				1572B382185BAAFE00E28E4B /* logotipo.png in Resources */,
