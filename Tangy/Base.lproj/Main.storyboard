@@ -51,6 +51,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="TGr-zJ-gC6"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,12 +60,16 @@
         <!--Navigation Controller - Catalog-->
         <scene sceneID="Drk-xr-VDU">
             <objects>
-                <navigationController definesPresentationContext="YES" id="GLC-SD-yZf" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="GLC-SD-yZf" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Catalog" id="YLW-GO-UHa"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pbt-cf-mZs">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ELu-Z3-z54">
+                        <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="3lH-Dc-RlQ" kind="relationship" relationship="rootViewController" id="aHL-xM-WEz"/>
                     </connections>
@@ -103,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="3513" y="858"/>
         </scene>
-        <!--Map View Controller - Radar-->
+        <!--Map View Controller-->
         <scene sceneID="hpY-A2-dgT">
             <objects>
                 <viewController id="sxd-tA-vnC" customClass="MapViewController" sceneMemberID="viewController">
@@ -120,13 +125,13 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="radar.png" translatesAutoresizingMaskIntoConstraints="NO" id="wgF-gh-MDL">
-                                <rect key="frame" x="20" y="116" width="287" height="287"/>
+                                <rect key="frame" x="17" y="72" width="287" height="287"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Radar" id="crd-rN-pSa"/>
+                    <navigationItem key="navigationItem" id="crd-rN-pSa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bk5-5y-bQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,8 +140,9 @@
         <!--Navigation Controller-->
         <scene sceneID="Yo2-tH-m25">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vh1-Bw-8gn" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Vh1-Bw-8gn" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" id="cb2-CJ-oqw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -262,7 +268,7 @@
         <!--Navigation Controller - Radar-->
         <scene sceneID="Gwt-bV-4sD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="koY-j2-naD" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="koY-j2-naD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Radar" id="3pO-YN-pa3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.14999999999999969" contentMode="scaleToFill" id="iJc-a6-Gqs">
