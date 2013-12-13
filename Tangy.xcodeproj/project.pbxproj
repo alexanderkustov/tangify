@@ -11,6 +11,9 @@
 		1572B381185BAAFE00E28E4B /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B37F185BAAFE00E28E4B /* login.png */; };
 		1572B382185BAAFE00E28E4B /* logotipo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B380185BAAFE00E28E4B /* logotipo.png */; };
 		1572B384185BB32F00E28E4B /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B383185BB32F00E28E4B /* radar.png */; };
+		1572B386185BC8CA00E28E4B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B385185BC8CA00E28E4B /* icon.png */; };
+		1572B388185BC9A500E28E4B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B387185BC9A500E28E4B /* logo.png */; };
+		1572B38A185BCBD700E28E4B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B389185BCBD700E28E4B /* splash.png */; };
 		AE4B98CD1859FECA00125CB3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4B98CC1859FECA00125CB3 /* MapViewController.m */; };
 		AE5B8C9818574F2400F45D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9718574F2400F45D9B /* Foundation.framework */; };
 		AE5B8C9A18574F2400F45D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9918574F2400F45D9B /* CoreGraphics.framework */; };
@@ -45,6 +48,9 @@
 		1572B37F185BAAFE00E28E4B /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		1572B380185BAAFE00E28E4B /* logotipo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotipo.png; sourceTree = "<group>"; };
 		1572B383185BB32F00E28E4B /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		1572B385185BC8CA00E28E4B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1572B387185BC9A500E28E4B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		1572B389185BCBD700E28E4B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		4317A20061084190869BC194 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4B98CB1859FECA00125CB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		AE4B98CC1859FECA00125CB3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -139,6 +145,7 @@
 				AE5B8CAC18574F2400F45D9B /* ViewController.h */,
 				AE5B8CAD18574F2400F45D9B /* ViewController.m */,
 				AE5B8CAF18574F2400F45D9B /* Images.xcassets */,
+				1572B385185BC8CA00E28E4B /* icon.png */,
 				AE5B8C9E18574F2400F45D9B /* Supporting Files */,
 				AE4B98CB1859FECA00125CB3 /* MapViewController.h */,
 				AE4B98CC1859FECA00125CB3 /* MapViewController.m */,
@@ -149,6 +156,8 @@
 		AE5B8C9E18574F2400F45D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1572B389185BCBD700E28E4B /* splash.png */,
+				1572B387185BC9A500E28E4B /* logo.png */,
 				1572B383185BB32F00E28E4B /* radar.png */,
 				1572B37F185BAAFE00E28E4B /* login.png */,
 				1572B380185BAAFE00E28E4B /* logotipo.png */,
@@ -263,10 +272,13 @@
 			files = (
 				1572B37C185BA07800E28E4B /* bg.jpg in Resources */,
 				1572B384185BB32F00E28E4B /* radar.png in Resources */,
+				1572B386185BC8CA00E28E4B /* icon.png in Resources */,
 				AE5B8CB018574F2400F45D9B /* Images.xcassets in Resources */,
 				AE5B8CA218574F2400F45D9B /* InfoPlist.strings in Resources */,
 				1572B382185BAAFE00E28E4B /* logotipo.png in Resources */,
+				1572B388185BC9A500E28E4B /* logo.png in Resources */,
 				AE5B8CAB18574F2400F45D9B /* Main.storyboard in Resources */,
+				1572B38A185BCBD700E28E4B /* splash.png in Resources */,
 				AE5B8CCF185753E500F45D9B /* app.jpg in Resources */,
 				1572B381185BAAFE00E28E4B /* login.png in Resources */,
 			);
