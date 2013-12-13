@@ -14,7 +14,6 @@
 		1572B386185BC8CA00E28E4B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B385185BC8CA00E28E4B /* icon.png */; };
 		1572B388185BC9A500E28E4B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B387185BC9A500E28E4B /* logo.png */; };
 		1572B38A185BCBD700E28E4B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1572B389185BCBD700E28E4B /* splash.png */; };
-		AE4B98CD1859FECA00125CB3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4B98CC1859FECA00125CB3 /* MapViewController.m */; };
 		AE5B8C9818574F2400F45D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9718574F2400F45D9B /* Foundation.framework */; };
 		AE5B8C9A18574F2400F45D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9918574F2400F45D9B /* CoreGraphics.framework */; };
 		AE5B8C9C18574F2400F45D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9B18574F2400F45D9B /* UIKit.framework */; };
@@ -29,7 +28,6 @@
 		AE5B8CB918574F2400F45D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8C9B18574F2400F45D9B /* UIKit.framework */; };
 		AE5B8CC118574F2400F45D9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8CBF18574F2400F45D9B /* InfoPlist.strings */; };
 		AE5B8CC318574F2400F45D9B /* TangyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5B8CC218574F2400F45D9B /* TangyTests.m */; };
-		AE5B8CCD1857534500F45D9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5B8CCC1857534500F45D9B /* MapKit.framework */; };
 		AE5B8CCF185753E500F45D9B /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8CCE185753E500F45D9B /* app.jpg */; };
 /* End PBXBuildFile section */
 
@@ -52,25 +50,23 @@
 		1572B387185BC9A500E28E4B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		1572B389185BCBD700E28E4B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		4317A20061084190869BC194 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4B98CB1859FECA00125CB3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		AE4B98CC1859FECA00125CB3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		AE5B8C9418574F2400F45D9B /* Tangy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5B8C9418574F2400F45D9B /* Tangify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tangify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5B8C9718574F2400F45D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE5B8C9918574F2400F45D9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AE5B8C9B18574F2400F45D9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AE5B8C9F18574F2400F45D9B /* Tangy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tangy-Info.plist"; sourceTree = "<group>"; };
+		AE5B8C9F18574F2400F45D9B /* Tangify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tangify-Info.plist"; sourceTree = "<group>"; };
 		AE5B8CA118574F2400F45D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE5B8CA318574F2400F45D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE5B8CA518574F2400F45D9B /* Tangy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tangy-Prefix.pch"; sourceTree = "<group>"; };
+		AE5B8CA518574F2400F45D9B /* Tangify-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tangify-Prefix.pch"; sourceTree = "<group>"; };
 		AE5B8CA618574F2400F45D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE5B8CA718574F2400F45D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE5B8CAA18574F2400F45D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5B8CAC18574F2400F45D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE5B8CAD18574F2400F45D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE5B8CAF18574F2400F45D9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AE5B8CB518574F2400F45D9B /* TangyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5B8CB518574F2400F45D9B /* TangifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5B8CB618574F2400F45D9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AE5B8CBE18574F2400F45D9B /* TangyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TangyTests-Info.plist"; sourceTree = "<group>"; };
+		AE5B8CBE18574F2400F45D9B /* TangifyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TangifyTests-Info.plist"; sourceTree = "<group>"; };
 		AE5B8CC018574F2400F45D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE5B8CC218574F2400F45D9B /* TangyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangyTests.m; sourceTree = "<group>"; };
 		AE5B8CCC1857534500F45D9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -83,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5B8CCD1857534500F45D9B /* MapKit.framework in Frameworks */,
 				AE5B8C9A18574F2400F45D9B /* CoreGraphics.framework in Frameworks */,
 				AE5B8C9C18574F2400F45D9B /* UIKit.framework in Frameworks */,
 				AE5B8C9818574F2400F45D9B /* Foundation.framework in Frameworks */,
@@ -117,8 +112,8 @@
 		AE5B8C9518574F2400F45D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE5B8C9418574F2400F45D9B /* Tangy.app */,
-				AE5B8CB518574F2400F45D9B /* TangyTests.xctest */,
+				AE5B8C9418574F2400F45D9B /* Tangify.app */,
+				AE5B8CB518574F2400F45D9B /* TangifyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,10 +140,7 @@
 				AE5B8CAC18574F2400F45D9B /* ViewController.h */,
 				AE5B8CAD18574F2400F45D9B /* ViewController.m */,
 				AE5B8CAF18574F2400F45D9B /* Images.xcassets */,
-				1572B385185BC8CA00E28E4B /* icon.png */,
 				AE5B8C9E18574F2400F45D9B /* Supporting Files */,
-				AE4B98CB1859FECA00125CB3 /* MapViewController.h */,
-				AE4B98CC1859FECA00125CB3 /* MapViewController.m */,
 			);
 			path = Tangy;
 			sourceTree = "<group>";
@@ -156,6 +148,7 @@
 		AE5B8C9E18574F2400F45D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1572B385185BC8CA00E28E4B /* icon.png */,
 				1572B389185BCBD700E28E4B /* splash.png */,
 				1572B387185BC9A500E28E4B /* logo.png */,
 				1572B383185BB32F00E28E4B /* radar.png */,
@@ -163,10 +156,10 @@
 				1572B380185BAAFE00E28E4B /* logotipo.png */,
 				1572B37B185BA07800E28E4B /* bg.jpg */,
 				AE5B8CCE185753E500F45D9B /* app.jpg */,
-				AE5B8C9F18574F2400F45D9B /* Tangy-Info.plist */,
+				AE5B8C9F18574F2400F45D9B /* Tangify-Info.plist */,
 				AE5B8CA018574F2400F45D9B /* InfoPlist.strings */,
 				AE5B8CA318574F2400F45D9B /* main.m */,
-				AE5B8CA518574F2400F45D9B /* Tangy-Prefix.pch */,
+				AE5B8CA518574F2400F45D9B /* Tangify-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,7 +176,7 @@
 		AE5B8CBD18574F2400F45D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE5B8CBE18574F2400F45D9B /* TangyTests-Info.plist */,
+				AE5B8CBE18574F2400F45D9B /* TangifyTests-Info.plist */,
 				AE5B8CBF18574F2400F45D9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -192,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE5B8C9318574F2400F45D9B /* Tangy */ = {
+		AE5B8C9318574F2400F45D9B /* Tangify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE5B8CC618574F2400F45D9B /* Build configuration list for PBXNativeTarget "Tangy" */;
+			buildConfigurationList = AE5B8CC618574F2400F45D9B /* Build configuration list for PBXNativeTarget "Tangify" */;
 			buildPhases = (
 				33C9CF7163644EE58250CADA /* Check Pods Manifest.lock */,
 				AE5B8C9018574F2400F45D9B /* Sources */,
@@ -206,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = Tangy;
+			name = Tangify;
 			productName = Tangy;
-			productReference = AE5B8C9418574F2400F45D9B /* Tangy.app */;
+			productReference = AE5B8C9418574F2400F45D9B /* Tangify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE5B8CB418574F2400F45D9B /* TangyTests */ = {
+		AE5B8CB418574F2400F45D9B /* TangifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE5B8CC918574F2400F45D9B /* Build configuration list for PBXNativeTarget "TangyTests" */;
+			buildConfigurationList = AE5B8CC918574F2400F45D9B /* Build configuration list for PBXNativeTarget "TangifyTests" */;
 			buildPhases = (
 				AE5B8CB118574F2400F45D9B /* Sources */,
 				AE5B8CB218574F2400F45D9B /* Frameworks */,
@@ -224,9 +217,9 @@
 			dependencies = (
 				AE5B8CBB18574F2400F45D9B /* PBXTargetDependency */,
 			);
-			name = TangyTests;
+			name = TangifyTests;
 			productName = TangyTests;
-			productReference = AE5B8CB518574F2400F45D9B /* TangyTests.xctest */;
+			productReference = AE5B8CB518574F2400F45D9B /* TangifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE5B8C8F18574F2400F45D9B /* Build configuration list for PBXProject "Tangy" */;
+			buildConfigurationList = AE5B8C8F18574F2400F45D9B /* Build configuration list for PBXProject "Tangify" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -259,8 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE5B8C9318574F2400F45D9B /* Tangy */,
-				AE5B8CB418574F2400F45D9B /* TangyTests */,
+				AE5B8C9318574F2400F45D9B /* Tangify */,
+				AE5B8CB418574F2400F45D9B /* TangifyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +328,6 @@
 				AE5B8CAE18574F2400F45D9B /* ViewController.m in Sources */,
 				AE5B8CA818574F2400F45D9B /* AppDelegate.m in Sources */,
 				AE5B8CA418574F2400F45D9B /* main.m in Sources */,
-				AE4B98CD1859FECA00125CB3 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +344,7 @@
 /* Begin PBXTargetDependency section */
 		AE5B8CBB18574F2400F45D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE5B8C9318574F2400F45D9B /* Tangy */;
+			target = AE5B8C9318574F2400F45D9B /* Tangify */;
 			targetProxy = AE5B8CBA18574F2400F45D9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,9 +458,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tangy/Tangy-Prefix.pch";
-				INFOPLIST_FILE = "Tangy/Tangy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tangy/Tangify-Prefix.pch";
+				INFOPLIST_FILE = "Tangy/Tangify-Info.plist";
+				PRODUCT_NAME = Tangify;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -483,9 +475,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tangy/Tangy-Prefix.pch";
-				INFOPLIST_FILE = "Tangy/Tangy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Tangy/Tangify-Prefix.pch";
+				INFOPLIST_FILE = "Tangy/Tangify-Info.plist";
+				PRODUCT_NAME = Tangify;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -507,8 +499,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TangyTests/TangyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TangyTests/TangifyTests-Info.plist";
+				PRODUCT_NAME = TangifyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -526,8 +518,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tangy/Tangy-Prefix.pch";
-				INFOPLIST_FILE = "TangyTests/TangyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TangyTests/TangifyTests-Info.plist";
+				PRODUCT_NAME = TangifyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -536,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE5B8C8F18574F2400F45D9B /* Build configuration list for PBXProject "Tangy" */ = {
+		AE5B8C8F18574F2400F45D9B /* Build configuration list for PBXProject "Tangify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE5B8CC418574F2400F45D9B /* Debug */,
@@ -545,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE5B8CC618574F2400F45D9B /* Build configuration list for PBXNativeTarget "Tangy" */ = {
+		AE5B8CC618574F2400F45D9B /* Build configuration list for PBXNativeTarget "Tangify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE5B8CC718574F2400F45D9B /* Debug */,
@@ -554,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE5B8CC918574F2400F45D9B /* Build configuration list for PBXNativeTarget "TangyTests" */ = {
+		AE5B8CC918574F2400F45D9B /* Build configuration list for PBXNativeTarget "TangifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE5B8CCA18574F2400F45D9B /* Debug */,
