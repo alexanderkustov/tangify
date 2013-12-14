@@ -33,6 +33,8 @@
     }
     
     //falta por texto aqui
+    [[cell textLabel] setText:@"cenas"];
+
     
     return cell;
      }
