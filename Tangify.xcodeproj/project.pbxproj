@@ -17,6 +17,8 @@
 		0C7BF6E2185C89A200B7CD73 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BF6E1185C89A200B7CD73 /* chat.png */; };
 		0C7BF6E4185C8BE300B7CD73 /* negocio.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BF6E3185C8BE300B7CD73 /* negocio.png */; };
 		0C7BF6E6185C8D3B00B7CD73 /* perfil-neg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BF6E5185C8D3B00B7CD73 /* perfil-neg.png */; };
+		0C7BF6EC185C98F500B7CD73 /* ClassCheckin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BF6EB185C98F500B7CD73 /* ClassCheckin.m */; };
+		0C7BF6EE185C9A0000B7CD73 /* check-in.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7BF6ED185C9A0000B7CD73 /* check-in.png */; };
 		0C7FBF05185C49EE009469EB /* definições.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF04185C49EE009469EB /* definições.png */; };
 		0C7FBF07185C4A77009469EB /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF06185C4A77009469EB /* profile.png */; };
 		0C7FBF09185C4F7F009469EB /* radar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF08185C4F7F009469EB /* radar1.png */; };
@@ -69,6 +71,9 @@
 		0C7BF6E1185C89A200B7CD73 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
 		0C7BF6E3185C8BE300B7CD73 /* negocio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negocio.png; sourceTree = "<group>"; };
 		0C7BF6E5185C8D3B00B7CD73 /* perfil-neg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "perfil-neg.png"; sourceTree = "<group>"; };
+		0C7BF6EA185C98F500B7CD73 /* ClassCheckin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassCheckin.h; path = ../ClassCheckin.h; sourceTree = "<group>"; };
+		0C7BF6EB185C98F500B7CD73 /* ClassCheckin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassCheckin.m; path = ../ClassCheckin.m; sourceTree = "<group>"; };
+		0C7BF6ED185C9A0000B7CD73 /* check-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-in.png"; sourceTree = "<group>"; };
 		0C7FBF04185C49EE009469EB /* definições.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "definições.png"; sourceTree = "<group>"; };
 		0C7FBF06185C4A77009469EB /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		0C7FBF08185C4F7F009469EB /* radar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar1.png; sourceTree = "<group>"; };
@@ -170,6 +175,8 @@
 			children = (
 				AE5B8CA618574F2400F45D9B /* AppDelegate.h */,
 				AE5B8CA718574F2400F45D9B /* AppDelegate.m */,
+				0C7BF6EA185C98F500B7CD73 /* ClassCheckin.h */,
+				0C7BF6EB185C98F500B7CD73 /* ClassCheckin.m */,
 				AE5B8CA918574F2400F45D9B /* Main.storyboard */,
 				0C6FF837185C69EA00220314 /* TableViewController.h */,
 				0C6FF838185C69EA00220314 /* TableViewController.m */,
@@ -188,6 +195,7 @@
 			children = (
 				0C7BF6E5185C8D3B00B7CD73 /* perfil-neg.png */,
 				0C7BF6E3185C8BE300B7CD73 /* negocio.png */,
+				0C7BF6ED185C9A0000B7CD73 /* check-in.png */,
 				0C7BF6E1185C89A200B7CD73 /* chat.png */,
 				0C7BF6DF185C886800B7CD73 /* cupoes.png */,
 				0C7BF6DB185C856800B7CD73 /* cena.png */,
@@ -330,6 +338,7 @@
 				0C7BF6E6185C8D3B00B7CD73 /* perfil-neg.png in Resources */,
 				0C7FBF0B185C5001009469EB /* logo-barra.png in Resources */,
 				0C6FF83D185C73B500220314 /* tiago.png in Resources */,
+				0C7BF6EE185C9A0000B7CD73 /* check-in.png in Resources */,
 				0C7FBF09185C4F7F009469EB /* radar1.png in Resources */,
 				1572B382185BAAFE00E28E4B /* logotipo.png in Resources */,
 				1572B388185BC9A500E28E4B /* logo.png in Resources */,
@@ -393,6 +402,7 @@
 			files = (
 				AE5B8CAE18574F2400F45D9B /* ViewController.m in Sources */,
 				AE5B8CA818574F2400F45D9B /* AppDelegate.m in Sources */,
+				0C7BF6EC185C98F500B7CD73 /* ClassCheckin.m in Sources */,
 				AE5B8CA418574F2400F45D9B /* main.m in Sources */,
 				0C6FF839185C69EA00220314 /* TableViewController.m in Sources */,
 				1572B38D185BD26E00E28E4B /* SettingsViewController.m in Sources */,

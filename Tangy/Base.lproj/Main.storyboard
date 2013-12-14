@@ -158,7 +158,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3n1-Hu-WtJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qkP-om-MmB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zpw-KV-lHt">
@@ -508,7 +508,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Mkb-Sx-GKs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LIt-Ny-ALi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Mr-7Y-nEG">
@@ -559,10 +559,10 @@
             </objects>
             <point key="canvasLocation" x="3518" y="-386"/>
         </scene>
-        <!--View Controller-->
+        <!--Class Checkin-->
         <scene sceneID="4f4-hB-ftj">
             <objects>
-                <viewController id="RFN-j2-QNp" sceneMemberID="viewController">
+                <viewController id="RFN-j2-QNp" customClass="ClassCheckin" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M81-8y-odN"/>
                         <viewControllerLayoutGuide type="bottom" id="YDh-tN-cQX"/>
@@ -576,21 +576,31 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil-neg.png" translatesAutoresizingMaskIntoConstraints="NO" id="kpy-Au-a5v">
-                                <rect key="frame" x="26" y="56" width="274" height="331"/>
+                                <rect key="frame" x="26" y="58" width="275" height="347"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tox-Tl-igX">
-                                <rect key="frame" x="135" y="275" width="67" height="66"/>
+                                <rect key="frame" x="128" y="283" width="71" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkin:" destination="RFN-j2-QNp" eventType="touchUpInside" id="hcM-N4-ilX"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check-in.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJj-Q0-eez">
+                                <rect key="frame" x="240" y="171" width="6" height="3"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="6N9-v0-jUP"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imgcheckin" destination="fJj-Q0-eez" id="ecG-A1-V6p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WsO-Us-QAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -603,6 +613,7 @@
         <image name="bg.jpg" width="640" height="1136"/>
         <image name="cena.png" width="30" height="30"/>
         <image name="chat.png" width="30" height="25"/>
+        <image name="check-in.png" width="184" height="184"/>
         <image name="cupoes.png" width="640" height="768"/>
         <image name="definições.png" width="30" height="30"/>
         <image name="login.png" width="336" height="116"/>
