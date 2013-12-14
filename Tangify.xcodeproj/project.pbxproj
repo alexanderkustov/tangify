@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C38EB36185C7A130045839E /* negocio.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C38EB35185C7A130045839E /* negocio.png */; };
 		0C6FF839185C69EA00220314 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FF838185C69EA00220314 /* TableViewController.m */; };
+		0C6FF83B185C725A00220314 /* logo-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6FF83A185C725A00220314 /* logo-radar.png */; };
+		0C6FF83D185C73B500220314 /* tiago.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6FF83C185C73B500220314 /* tiago.png */; };
+		0C6FF83F185C76E700220314 /* paulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C6FF83E185C76E700220314 /* paulo.png */; };
 		0C7FBF05185C49EE009469EB /* definições.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF04185C49EE009469EB /* definições.png */; };
 		0C7FBF07185C4A77009469EB /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF06185C4A77009469EB /* profile.png */; };
 		0C7FBF09185C4F7F009469EB /* radar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF08185C4F7F009469EB /* radar1.png */; };
@@ -49,8 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C38EB35185C7A130045839E /* negocio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = negocio.png; sourceTree = "<group>"; };
 		0C6FF837185C69EA00220314 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		0C6FF838185C69EA00220314 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0C6FF83A185C725A00220314 /* logo-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-radar.png"; sourceTree = "<group>"; };
+		0C6FF83C185C73B500220314 /* tiago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiago.png; sourceTree = "<group>"; };
+		0C6FF83E185C76E700220314 /* paulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paulo.png; sourceTree = "<group>"; };
 		0C7FBF04185C49EE009469EB /* definições.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "definições.png"; sourceTree = "<group>"; };
 		0C7FBF06185C4A77009469EB /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		0C7FBF08185C4F7F009469EB /* radar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar1.png; sourceTree = "<group>"; };
@@ -168,6 +176,10 @@
 		AE5B8C9E18574F2400F45D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C38EB35185C7A130045839E /* negocio.png */,
+				0C6FF83E185C76E700220314 /* paulo.png */,
+				0C6FF83C185C73B500220314 /* tiago.png */,
+				0C6FF83A185C725A00220314 /* logo-radar.png */,
 				0C7FBF0C185C515E009469EB /* cupao.png */,
 				0C7FBF0A185C5001009469EB /* logo-barra.png */,
 				0C7FBF08185C4F7F009469EB /* radar1.png */,
@@ -290,18 +302,22 @@
 			files = (
 				0C7FBF07185C4A77009469EB /* profile.png in Resources */,
 				1572B37C185BA07800E28E4B /* bg.jpg in Resources */,
+				0C38EB36185C7A130045839E /* negocio.png in Resources */,
 				1572B384185BB32F00E28E4B /* radar.png in Resources */,
 				1572B386185BC8CA00E28E4B /* icon.png in Resources */,
 				0C7FBF0D185C515E009469EB /* cupao.png in Resources */,
 				AE5B8CB018574F2400F45D9B /* Images.xcassets in Resources */,
 				AE5B8CA218574F2400F45D9B /* InfoPlist.strings in Resources */,
 				0C7FBF0B185C5001009469EB /* logo-barra.png in Resources */,
+				0C6FF83D185C73B500220314 /* tiago.png in Resources */,
 				0C7FBF09185C4F7F009469EB /* radar1.png in Resources */,
 				1572B382185BAAFE00E28E4B /* logotipo.png in Resources */,
 				1572B388185BC9A500E28E4B /* logo.png in Resources */,
 				0C7FBF05185C49EE009469EB /* definições.png in Resources */,
+				0C6FF83F185C76E700220314 /* paulo.png in Resources */,
 				AE5B8CAB18574F2400F45D9B /* Main.storyboard in Resources */,
 				1572B38A185BCBD700E28E4B /* splash.png in Resources */,
+				0C6FF83B185C725A00220314 /* logo-radar.png in Resources */,
 				AE5B8CCF185753E500F45D9B /* app.jpg in Resources */,
 				1572B381185BAAFE00E28E4B /* login.png in Resources */,
 			);
