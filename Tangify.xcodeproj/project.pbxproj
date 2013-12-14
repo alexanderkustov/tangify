@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6FF839185C69EA00220314 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FF838185C69EA00220314 /* TableViewController.m */; };
 		0C7FBF05185C49EE009469EB /* definições.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF04185C49EE009469EB /* definições.png */; };
 		0C7FBF07185C4A77009469EB /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF06185C4A77009469EB /* profile.png */; };
 		0C7FBF09185C4F7F009469EB /* radar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7FBF08185C4F7F009469EB /* radar1.png */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C6FF837185C69EA00220314 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0C6FF838185C69EA00220314 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		0C7FBF04185C49EE009469EB /* definições.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "definições.png"; sourceTree = "<group>"; };
 		0C7FBF06185C4A77009469EB /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		0C7FBF08185C4F7F009469EB /* radar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar1.png; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				AE5B8CA618574F2400F45D9B /* AppDelegate.h */,
 				AE5B8CA718574F2400F45D9B /* AppDelegate.m */,
 				AE5B8CA918574F2400F45D9B /* Main.storyboard */,
+				0C6FF837185C69EA00220314 /* TableViewController.h */,
+				0C6FF838185C69EA00220314 /* TableViewController.m */,
 				1572B38B185BD26E00E28E4B /* SettingsViewController.h */,
 				1572B38C185BD26E00E28E4B /* SettingsViewController.m */,
 				AE5B8CAC18574F2400F45D9B /* ViewController.h */,
@@ -353,6 +358,7 @@
 				AE5B8CAE18574F2400F45D9B /* ViewController.m in Sources */,
 				AE5B8CA818574F2400F45D9B /* AppDelegate.m in Sources */,
 				AE5B8CA418574F2400F45D9B /* main.m in Sources */,
+				0C6FF839185C69EA00220314 /* TableViewController.m in Sources */,
 				1572B38D185BD26E00E28E4B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
