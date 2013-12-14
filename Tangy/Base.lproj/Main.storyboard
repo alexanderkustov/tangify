@@ -116,7 +116,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cQJ-9K-bYd"/>
                     </layoutGuides>
                     <view key="view" alpha="0.49999999999999961" contentMode="center" id="88V-vS-7Ur">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Me8-TG-IRR">
@@ -316,11 +316,11 @@
                         <viewControllerLayoutGuide type="bottom" id="cKM-Sn-KAs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZEF-xh-rlL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nr6-9D-VbN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -535,17 +535,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="negocio.png" translatesAutoresizingMaskIntoConstraints="NO" id="rj2-ER-LAs">
-                                <rect key="frame" x="114" y="163" width="38" height="40"/>
+                                <rect key="frame" x="226" y="88" width="38" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJC-lm-AkU">
-                                <rect key="frame" x="114" y="163" width="38" height="40"/>
+                                <rect key="frame" x="226" y="88" width="38" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gp5-82-AW8" kind="push" id="NTd-Gz-889"/>
+                                    <segue destination="RFN-j2-QNp" kind="push" id="cVr-jf-EL4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,42 +559,42 @@
             </objects>
             <point key="canvasLocation" x="3518" y="-386"/>
         </scene>
-        <!--View Controller - oi-->
-        <scene sceneID="xNa-Ns-NLI">
+        <!--View Controller-->
+        <scene sceneID="4f4-hB-ftj">
             <objects>
-                <viewController id="gp5-82-AW8" sceneMemberID="viewController">
+                <viewController id="RFN-j2-QNp" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dmh-OR-aJJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="8hP-FW-iEi"/>
+                        <viewControllerLayoutGuide type="top" id="M81-8y-odN"/>
+                        <viewControllerLayoutGuide type="bottom" id="YDh-tN-cQX"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" alpha="0.5" contentMode="center" id="3kl-br-sWZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                    <view key="view" contentMode="scaleToFill" id="TrZ-UZ-5As">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boca" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0B-YB-5f2">
-                                <rect key="frame" x="49" y="175" width="53" height="28"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jo7-me-OP8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil-neg.png" translatesAutoresizingMaskIntoConstraints="NO" id="kpy-Au-a5v">
+                                <rect key="frame" x="26" y="56" width="274" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Negocio XPTO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wS7-aK-EDe">
-                                <rect key="frame" x="49" y="211" width="114" height="21"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tox-Tl-igX">
+                                <rect key="frame" x="135" y="275" width="67" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="oi" id="ouo-hP-q6r"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationItem key="navigationItem" id="6N9-v0-jUP"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Re9-FK-0r4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WsO-Us-QAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4051" y="-814"/>
+            <point key="canvasLocation" x="4016" y="-866"/>
         </scene>
     </scenes>
     <resources>
@@ -609,8 +609,9 @@
         <image name="logo-barra.png" width="29" height="30"/>
         <image name="logo-radar.png" width="30" height="36"/>
         <image name="logotipo.png" width="368" height="444"/>
-        <image name="negocio.png" width="50" height="50"/>
+        <image name="negocio.png" width="139" height="138"/>
         <image name="paulo.png" width="50" height="51"/>
+        <image name="perfil-neg.png" width="580" height="756"/>
         <image name="profile.png" width="30" height="30"/>
         <image name="radar.png" width="566" height="566"/>
         <image name="tiago.png" width="50" height="53"/>
@@ -622,6 +623,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="a47-7a-yLE"/>
+        <segue reference="2YJ-Zu-vTA"/>
     </inferredMetricsTieBreakers>
 </document>
